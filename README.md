@@ -85,13 +85,6 @@ npm install
 
 ---
 
-## 👀 Demo
-
-<p align="center">
-  <img src="https://github.com/Neeraj-Panchal/QuickMail-AI-with-Extension/assets/demo-screenshot.png" width="600" alt="Demo Screenshot"/>
-</p>
-
----
 
 ## 🤝 Contributing
 
@@ -103,16 +96,11 @@ We welcome contributions! Please follow these steps:
 4. Push to the branch: `git push origin feature/YourFeature`
 5. Create a new Pull Request
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/Neeraj-Panchal">Neeraj Panchal</a>
+  Made by <a href="https://github.com/Neeraj-Panchal">Neeraj Panchal</a>
 </p>
 
 <!-- Github Link -->
