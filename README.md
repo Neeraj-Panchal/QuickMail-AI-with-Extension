@@ -1,12 +1,8 @@
-<!-- QuickMail-AI-with-Extension README.md -->
-
-<!-- Banner Section -->
 <p align="center">
   <img src="https://img.shields.io/github/stars/Neeraj-Panchal/QuickMail-AI-with-Extension?style=social" alt="GitHub stars">
   <img src="https://img.shields.io/github/forks/Neeraj-Panchal/QuickMail-AI-with-Extension?style=social" alt="GitHub forks">
   <img src="https://img.shields.io/github/issues/Neeraj-Panchal/QuickMail-AI-with-Extension" alt="GitHub issues">
   <br>
-  
   <h1>🚀 QuickMail-AI-with-Extension</h1>
   <h3>Supercharge Your Email Productivity with AI 🚀</h3>
 </p>
@@ -18,7 +14,7 @@
     <a href="#features">Features</a> •
     <a href="#installation">Installation</a> •
     <a href="#usage">Usage</a> •
-    <a href="#demo">Demo</a> •
+    <a href="#video-demo">Demo</a> •
     <a href="#contributing">Contributing</a> •
     <a href="#license">License</a>
   </b>
@@ -30,8 +26,16 @@
 
 QuickMail-AI-with-Extension is an open-source project that integrates AI into your email workflow, enabling smarter, faster, and more effective communication. This repository contains a browser extension and API backend to help you draft, organize, and send emails using AI-powered suggestions.
 
+---
+
+## 🎬 Video Demo
+
 <p align="center">
-  <img src="https://github.com/Neeraj-Panchal/QuickMail-AI-with-Extension/assets/your-gif-demo.gif" width="400" alt="Demo GIF"/>
+  <a href="https://www.linkedin.com/posts/neeraj-panchal-5b6a85263_ai-artificialintelligence-googlegemini-activity-7375215902704852992-D0EO">
+    <img src="https://img.shields.io/badge/Watch%20Demo%20on-LinkedIn-0077B5?style=for-the-badge&logo=linkedin" alt="Watch Video Demo" />
+  </a>
+  <br>
+  <i>Click the button above to watch the full project demonstration on LinkedIn.</i>
 </p>
 
 ---
@@ -39,11 +43,11 @@ QuickMail-AI-with-Extension is an open-source project that integrates AI into yo
 ## ✨ Features
 
 <ul>
-  <li>🧠 <b>AI-Powered Email Drafting</b>: Generate professional emails in seconds</li>
-  <li>💡 <b>Smart Suggestions</b>: Get subject, body, and sign-off recommendations</li>
-  <li>🔒 <b>Secure API Backend</b>: All data processed securely</li>
-  <li>🌍 <b>Browser Extension</b>: Works on Chrome, Firefox, Edge, and more</li>
-  <li>⚡ <b>Quick Integration</b>: Easy setup and usage</li>
+  <li>🧠 <b>AI-Powered Email Drafting</b>: Generate professional emails in seconds using <b>Gemini API</b></li>
+  <li>💡 <b>Smart Suggestions</b>: Get subject, body, and tone-specific recommendations</li>
+  <li>🔒 <b>Secure API Backend</b>: Built with <b>Spring Boot</b> and <b>Spring AI</b></li>
+  <li>🌍 <b>Browser Extension</b>: Custom Chrome Extension built with <b>React</b> and <b>JavaScript</b></li>
+  <li>⚡ <b>Quick Integration</b>: Injects AI capabilities directly into the Gmail interface</li>
 </ul>
 
 ---
@@ -52,60 +56,12 @@ QuickMail-AI-with-Extension is an open-source project that integrates AI into yo
 
 ```bash
 # Clone the repository
-git clone https://github.com/Neeraj-Panchal/QuickMail-AI-with-Extension.git
+git clone [https://github.com/Neeraj-Panchal/QuickMail-AI-with-Extension.git](https://github.com/Neeraj-Panchal/QuickMail-AI-with-Extension.git)
 
-# Install backend dependencies
+# Install backend dependencies (Spring Boot)
 cd backend
-npm install
+./mvnw install
 
 # Install extension dependencies
 cd ../extension
 npm install
-```
-
-> You can also download the extension directly from the <a href="https://github.com/Neeraj-Panchal/QuickMail-AI-with-Extension/releases">Releases</a> page.
-
----
-
-## 🛠️ Usage
-
-1. **Start the Backend API**
-   ```bash
-   cd backend
-   npm start
-   ```
-2. **Install the browser extension**
-   - Go to your browser's extension settings.
-   - Load the unpacked extension from the `/extension` directory.
-
-3. **Configure your AI key**
-   - Set your API key in the extension's settings panel.
-
-4. **Start drafting smarter emails!**
-
----
-
-
-## 🤝 Contributing
-
-We welcome contributions! Please follow these steps:
-
-1. Fork the repo
-2. Create your feature branch: `git checkout -b feature/YourFeature`
-3. Commit your changes: `git commit -am 'Add new feature'`
-4. Push to the branch: `git push origin feature/YourFeature`
-5. Create a new Pull Request
-
-
----
-
-<p align="center">
-  Made by <a href="https://github.com/Neeraj-Panchal">Neeraj Panchal</a>
-</p>
-
-<!-- Github Link -->
-<p align="center">
-  <a href="https://github.com/Neeraj-Panchal/QuickMail-AI-with-Extension">
-    <img src="https://img.shields.io/badge/Github-QuickMail--AI--with--Extension-blue?logo=github" alt="GitHub Repo">
-  </a>
-</p>
